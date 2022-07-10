@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
@@ -9,6 +9,5 @@ setup(
         'pandas>=1.4',
         'pyxDamerauLevenshtein>=1.7.0',
         'scikit-learn>=1.1'
-    ],
-    packages=find_packages(include=['text_utils'])
+    ]
 )
