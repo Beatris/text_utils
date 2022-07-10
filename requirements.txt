@@ -1,3 +1,5 @@
+-i http://localhost:3141/testuser/dev/
+
 numpy==1.23.1
 pandas==1.4.3
 pyxDamerauLevenshtein==1.7.0

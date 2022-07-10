@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='text_utils',
-    version='0.0.1',
+    version='0.0.1d',
     install_requires=[
         'numpy>=1.23',
         'pandas>=1.4',
