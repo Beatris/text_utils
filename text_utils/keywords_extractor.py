@@ -16,7 +16,7 @@ class KeywordsExtractor:
         vectorizer.fit(corpus)
         return KeywordsExtractor(vectorizer)
 
-    def get_keywords_from_text(self, text: str, max_words: int = 10) -> List[str]:
+    def get_keywords_from_text(self, text: str, max_words: int = 8) -> List[str]:
         tf_idf = self.vectorizer.transform([text])
         df = pd.DataFrame(
             tf_idf[0].T.todense(),
